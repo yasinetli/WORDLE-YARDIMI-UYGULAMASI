@@ -100,7 +100,7 @@ def wordle_helper():
     print(contain_list)
     print(not_contain_list)
     third_word_dict = {}
-    for i in last:
+    for i in master:
         let_list = []
         let_list.extend((i[0], i[1], i[2], i[3], i[4]))
         check_not_contain = any(item in let_list for item in not_contain_list)
